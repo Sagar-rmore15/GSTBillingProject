@@ -13,25 +13,25 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-mail:
-  host: smtp.gmail.com
-  port: 587
-  username: sagar.rmore15@gmail.com
-  password: nmfa zevh ygkl avws
-  properties:
-    mail:
-      smtp:
-        auth: true
-        starttls:
-          enable: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: sagar.rmore15@gmail.com
+    password: gtsw lkzl gvge zivm
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
 
-#MultiPart files Configuration
-servlet:
-  multipart:
-    enabled: true
-    max-file-size: 5MB
-    max-request-size: 5MB
-    file-size-threshold: 3KB
+  #MultiPart files Configuration
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 5MB
+      max-request-size: 5MB
+      file-size-threshold: 3KB
 
 jwt:
   secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
